@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/legtype"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="Invoice"
+        android:textSize="15dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/InvDate"
+        android:layout_toLeftOf="@+id/legamn"
+        android:text="12/5/2017"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/invNum"
+        android:layout_toRightOf="@+id/legtype"
+        android:text="000001"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/legamn"
+        android:layout_toLeftOf="@+id/balnce"
+        android:text="40000"
+        android:layout_marginRight="10dp"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/balnce"
+        android:text="90000000"
+        android:textSize="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        />
+
+
+
+</RelativeLayout>
